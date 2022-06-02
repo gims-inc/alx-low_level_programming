@@ -1,6 +1,18 @@
-#0
-Write a script that runs a C file through the preprocessor and save the result into another file.
+#0 Preprocessor
 
-    The C file name will be saved in the variable $CFILE
-    The output should be saved in the file
+#1 Compiler
+
+#2 Assembler
+
+#3 Compile $$ make executable
+
+#4 Stricktly "puts"
+ 
+#5 Stricktly "printf"
+
+#6 sizeof()
+
+#100 Generate Assembly code > ofile
+
+#101 Stricktly "write" ~~note Header file~~
 
