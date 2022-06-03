@@ -13,7 +13,7 @@ while (alphabet_char <= 'z')
 	alphabet_char++;
 }
 
-char alphabet_char = 'A';
+alphabet_char = 'A';
 while (alphabet_char <= 'Z')
 {
 	putchar(alphabet_char);
