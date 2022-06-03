@@ -13,11 +13,11 @@ while (alphabet_char <= 'z')
 	alphabet_char++;
 }
 
-char alphabet_upper = 'A';
-while (alphabet_upper <= 'Z')
+char alphabet_char = 'A';
+while (alphabet_char <= 'Z')
 {
-	putchar(alphabet_upper)
-	alphabet_upper++;
+	putchar(alphabet_char);
+	alphabet_char++;
 }
 putchar('\n');
 return (0);
