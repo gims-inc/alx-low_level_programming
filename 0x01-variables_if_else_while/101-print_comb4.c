@@ -15,7 +15,7 @@ int main(void)
 	for (a = 0; a < 1000; a++)
 	{
 		b = a / 100;
-		c = (a / 10) / 10;
+		c = (a / 10) % 10;
 		d = a % 10;
 
 		if (b < c && c < d)
