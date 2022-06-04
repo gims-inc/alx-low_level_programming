@@ -12,8 +12,8 @@ int main(void)
 
 	while (number < 10)
 	{
-	putchar(i + '0');
-	if (i < 9)
+	putchar(number + '0');
+	if (number < 9)
 	{
 	putchar(44);/*comma*/
 	putchar(32);/*space*/
