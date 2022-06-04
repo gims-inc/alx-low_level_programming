@@ -7,13 +7,12 @@
 int main(void)
 {
 int number;
+char alphabet_char = 'a';
 
 for (number = 0; number < 10; number++)
 {
 	putchar(number + '0');
 }
-
-char alphabet_char = 'a';
 
 while (alphabet_char <= 'f')
 {
