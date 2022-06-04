@@ -16,7 +16,7 @@ int main(void)
 	{
 		b = a / 100;
 		c = (a / 10) / 10;
-		d = a % 10);
+		d = a % 10;
 
 		if (b < c && c < d)
 		{
