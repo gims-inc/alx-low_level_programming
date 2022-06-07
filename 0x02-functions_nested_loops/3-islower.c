@@ -5,7 +5,7 @@
  * @ch: char type
  * Return: 1 (true), 0 (false)
  */
-int _islower(char ch)
+int _islower(int ch)
 {
 	if (ch >= 97 && ch <= 122)
 	{
