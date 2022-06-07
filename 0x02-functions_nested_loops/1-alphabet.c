@@ -1,23 +1,17 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - print the aplhabet in lowecase 10x.
+ * print_alphabet - print the aplhabet in lowecase.
  *
  * Return: 0
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-	int x = 10;
-	char alphabet_char;
+	char alphabet_char = 'a';
 
-	while (x < 10)
+	while (alphabet_char <= 'z')
 	{
-		alphabet_char = 'a';
-		while (alphabet_char <= 'z')
-		{
-			_putchar(alphabet_char);
-			alphabet_char++;
-		}
-		_putchar('\n');
-		x++;
+		_putchar(alphabet_char);
+		alphabet_char++;
 	}
+		_putchar('\n');
 }
