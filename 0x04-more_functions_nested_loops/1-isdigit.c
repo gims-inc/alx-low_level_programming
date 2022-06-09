@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _isdigit - check for lowercase digits
- * return 1 if true and 0 if false.
- * @: integer type
- * Return: 1 (true), 0 (false)
+ * return 1 if its a digit and 0 if not.
+ * @c: integer type
+ * Return: 1 if digit, 0 if not
  */
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
+	if (c > 47 && c < 58)
 	{
 		return (1);
 	}
