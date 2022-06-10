@@ -9,7 +9,6 @@
 void print_number(int n)
 {
 	int m;
-	/*int a, b, c, d;*/
 
 	if (n < 0)
 	{
@@ -41,10 +40,5 @@ void print_number(int n)
 	{
 		_putchar(m % 10 + '0');
 	}
-	/**
-	*a && _putchar(a + '0');
-	*b && _putchar(b + '0');
-	*c && _putchar(c + '0');
-	*d && _putchar(d + '0');
-	*/
+
 }
