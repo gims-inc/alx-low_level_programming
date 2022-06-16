@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copies a sting
- *
+ * _strncpy - copies a sting
  * @dest: string pointer
  * @src: string pointer
  * @n: char size to copy
@@ -15,8 +14,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (len = 0; len < n && src[len] != '\0'; len++)
 		dest[len] = src[len];
-
-	for (; n > len; len++)
+	for (; len < n; len++)
 		dest[len] = '\0';
 
 	return (dest);
