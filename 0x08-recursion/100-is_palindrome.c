@@ -1,11 +1,25 @@
 #include "main.h"
 
 /**
+ * _strlen_recursion - return the length of a string
+ * @s: pointer to char
+ * Return: string length
+ */
+
+int _strlen_recursion(char *s)
+{
+	if (*s != '\0')
+		return (1 + _strlen_recursion(s + 1));
+	else
+		return (0);
+}
+
+/**
  * _strcmp - compares each character of the string.
  * @s: string
- * @n1: smallest iterator.
+ * @n1: smallest iterator
  * @n2: biggest iterator.
- * Return: .
+ * Return: 1 or 0
  */
 int _strcmp(char *s, int n1, int n2)
 {
