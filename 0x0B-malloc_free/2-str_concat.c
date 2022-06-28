@@ -13,9 +13,9 @@ char *str_concat(char *s1, char *s2)
 	int strLen1, strLen2, count, count1;
 
 	if (s1 == NULL)
-		return ("");
+		s2 = 0;
 	if (s2 == NULL)
-		return ("");
+		s2 = 0;
 
 
 	for (strLen1 = 0; s1[strLen1] != '\0'; strLen1++)
@@ -36,5 +36,4 @@ char *str_concat(char *s1, char *s2)
 			ptr[count] = s2[count1++];
 
 	return (ptr);
-
 }
