@@ -5,6 +5,7 @@
  * print_strings - print strings followed by new line
  * @separator: string printed btn strings
  * @n: number of extra parameters
+ * Return: void
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
