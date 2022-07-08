@@ -10,18 +10,18 @@
 void print_all(const char * const format, ...)
 {
 	va_list list;
-	int n = 0, i = 0;
+	int n = 0, c = 0;
 	char *separator = ", ";
 	char *str;
 
 	va_start(list, format);
 
-	while (format && format[i])
-		i++;
+	while (format && format[c])
+		c++;
 
 	while (format && format[n])
 	{
-		if (n  == (i - 1))
+		if (n  == (c - 1))
 		{
 			separator = "";
 		}
