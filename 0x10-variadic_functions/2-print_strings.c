@@ -20,8 +20,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		strPtr = va_arg(strs, char*);
 		if (strPtr == NULL)
-			printf("(nill)");
-		else
+			strPtr = "(nill)";
+
 		printf("%s", strPtr);
 
 		if (i != (n - 1) && separator != NULL)
